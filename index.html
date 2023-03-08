@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="./assets/CSS/style.css">
     <title>Horiseon Social Solution Services</title>
 </head>
-<!-- The original code has a div instead of a header, why is that? are there any implications in doing so? -->
+
 <body>
     <div class="header">
         <h1>Hori<span class="seo">seo</span>n</h1>
@@ -24,10 +24,10 @@
             </ul>
         </div>
     </div>
-    <!-- Added the alt for accesibility reasons, but will it show considering the image was added on CSS? -->
+    <!-- Added the alt for the image for accesibility reasons -->
     <div class="backgroundimage" alt="Image that shows a meeting of people working on an office and reviewing some sheets for a project"></div>
     <div class="content">
-        <!-- In this section, we have ID selectors but on the CSS i couldnt find the properties to modify these ID selectors. On the original code the Search Engine didnt had any ID selector, but adding it fixed the link to work properly, why is that? -->
+        <!-- Added and id to the search-engine-optimization div so that the link functions properly on the page. Also added an alt attribute to the images for accesibility -->
         <div id="search-engine-optimization" class="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="Image that shows a notebook with notes on it that explain the Search Engine Optimization service that the company provides" />
             <h2>Search Engine Optimization</h2>
@@ -50,6 +50,7 @@
             </p>
         </div>
     </div>
+    <!-- In here, all of the benefit sections were unified into a single class called benefit, as they shared the same style -->
     <div class="benefits">
         <div class="benefit">
             <h3>Lead Generation</h3>

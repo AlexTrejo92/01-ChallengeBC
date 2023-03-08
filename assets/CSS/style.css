@@ -88,7 +88,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Grouped all of the benefit styles into 1 class, since the code repeated itself and was unnecesary. This also implied changes to the HTML code */
+/* Grouped all of the benefit styles into 1 class, since the code repeated itself and was unnecesary. This also implied changes to the HTML code. Left the original code as comments */
 .benefit {
     margin-bottom: 32px;
     color: #ffffff;
@@ -104,6 +104,7 @@ p {
     color: #ffffff;
 } */
 
+/* Grouped the h3 class selector on just 1 selector as it was the same for the other 2 selectors on the original code. */
 .benefit h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -119,6 +120,7 @@ p {
     text-align: center;
 } */
 
+/* Same process as before, grouped 3 selectors into 1 */
 .benefit img {
     display: block;
     margin: 10px auto;
@@ -137,6 +139,7 @@ p {
     max-width: 150px;
 } */
 
+/* By using commas, I grouped 3 different class selectors into 1 line of code, but didn't made any changes to the HTML so we could keep the 3 differente class selectors */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -164,6 +167,7 @@ p {
     color: #ffffff;
 } */
 
+/* Grouped 3 class selectors into 1, as they had the same properties and style */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  {
     max-height: 200px;
 }
