@@ -11,11 +11,11 @@ This page was requested by a Marketing Agency that wanted to make their site mor
 
 The site should look like the following (only on desktop view)
 
-![alt text](./assets/images/WebScreenshot.jpg)
+![alt text](./assets/images/WebScreenshot.png)
 
 ## Link
 
-follow this URL to access the website: 
+follow this URL to access the website: https://alextrejo92.github.io/01-ChallengeBC/
 
 ## Installation
 
